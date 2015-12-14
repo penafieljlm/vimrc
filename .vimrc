@@ -103,8 +103,8 @@ imap <C-t> <Esc>:browse<Space>tabnew<Enter>
 
 " Backspace Deletion in Any Mode + Switch to Insert Mode
 nmap <BS> i<BS>
-vmap <BS> <Del>i
+vmap <BS> <Del><Esc>i
 
 " Deletion in Any Mode + Switch to Insert Mode
 nmap <Del> i<Del>
-vmap <Del> <Del>i
+vmap <Del> <Del><Esc>i
