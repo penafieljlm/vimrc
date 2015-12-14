@@ -26,7 +26,7 @@ vmap <C-d> <Esc>:d<Enter>v
 imap <C-d> <Esc>:d<Enter>i
 
 " Save (Ctrl+S)
-nmap <C-s> :w<Enter>
+nmap <C-s> :w<Enter><Right>
 imap <C-s> <Esc><C-s>i
 vmap <C-s> <Esc><C-s>v
 
@@ -73,7 +73,7 @@ nmap <S-Home> v<S-Home>
 imap <S-Home> <Esc><S-Home>
 
 " Highlight Text End (Shift+End)
-vmap <S-End> <End>
+vmap <S-End> <End><Left>
 nmap <S-End> v<S-End>
 imap <S-End> <Right><Esc><S-End>
 
