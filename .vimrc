@@ -97,6 +97,14 @@ vmap <C-y> <Esc><C-r>i
 imap <C-y> <Esc><C-r>i
 
 " New Tab (Ctrl+T)
-namp <C-t> :browse<Space>tabnew<Enter>
+nmap <C-t> :browse<Space>tabnew<Enter>
 vmap <C-t> <Esc>:browse<Space>tabnew<Enter>
 imap <C-t> <Esc>:browse<Space>tabnew<Enter>
+
+" Backspace Deletion in Any Mode + Switch to Insert Mode
+nmap <BS> i<BS>
+vmap <BS> <Del>i
+
+" Deletion in Any Mode + Switch to Insert Mode
+nmap <Del> i<Del>
+vmap <Del> <Del>i
