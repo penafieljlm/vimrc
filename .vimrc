@@ -50,12 +50,12 @@ vmap <C-v> p
 " Highlight Text Left (Shift+Left)
 vmap <S-Left> <Left>
 nmap <S-Left> v<S-Left>
-imap <S-Left> <Esc>v<S-Left>
+imap <S-Left> <Esc><S-Left>
 
 " Highlight Text Right (Shift+Right)
 vmap <S-Right> <Right>
 nmap <S-Right> v<S-Right>
-imap <S-Right> <Esc><S-Right>
+imap <S-Right> <Right><Esc><S-Right>
 
 " Highlight Text Up (Shift+Up)
 vmap <S-Up> <Up>
@@ -75,7 +75,7 @@ imap <S-Home> <Esc><S-Home>
 " Highlight Text End (Shift+End)
 vmap <S-End> <End>
 nmap <S-End> v<S-End>
-imap <S-End> <Esc><S-End>
+imap <S-End> <Right><Esc><S-End>
 
 " Highlight Text Page Up (Shift+PageUp)
 vmap <S-PageUp> <PageUp>
