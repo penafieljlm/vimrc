@@ -10,6 +10,11 @@ set backspace=indent,eol,start
 " Set Key Map Timeout to 1/4ths of a Second
 set timeoutlen=250
 
+" Set Tabstop to 4
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " Quit (Alt+Q)
 nmap <A-q> :q<Enter>
 vmap <A-q> <Esc><A-q>
