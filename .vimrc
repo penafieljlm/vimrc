@@ -16,10 +16,8 @@ set shiftwidth=4
 set expandtab
 
 " Indent Multiple Lines with <Tab>
-vnoremap > >gv
-vnoremap < <gv
-vnoremap <Tab> >
-vnoremap <S-Tab> <
+vnoremap <Tab> >gV
+vnoremap <S-Tab> <gV
 
 " Quit (Alt+Q)
 nmap <A-q> :q<Enter>
