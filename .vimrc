@@ -68,3 +68,5 @@ vmap ) di(<Esc>pi<Right>)
 " Wrap in Brackets
 vmap [ di[<Esc>pi<Right>]
 vmap ] di[<Esc>pi<Right>]
+vmap { di{<Esc>pi<Right>}
+vmap } di{<Esc>pi<Right>}
