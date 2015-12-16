@@ -36,7 +36,7 @@ imap <A-q><A-q> <Esc><A-q><A-qi
 " Save (Ctrl+S)
 nmap <C-s> :w<Enter>
 vmap <C-s> <Esc><C-s>v
-imap <C-s> <Esc><C-s>i
+imap <C-s> <Esc><C-s>i<Right>
 
 " Save As (Ctrl+S, Ctrl+S)
 nmap <C-s><C-s> :s<Space>
