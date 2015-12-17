@@ -49,7 +49,7 @@ vmap <C-d> <Esc><C-d>v
 imap <C-d> <Esc><C-d>i
 
 " Find (Ctrl+F)
-nmap <C-f> /
+nmap <C-f> /<Up>
 vmap <C-f> <Esc><C-f>
 imap <C-f> <Esc><C-f>
 
