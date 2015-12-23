@@ -35,6 +35,11 @@ nmap <C-z> u
 vmap <C-z> <Esc><C-z>v
 imap <C-z> <Esc><C-z>i
 
+" Redo (Ctrl+Y)
+nmap <C-y> <C-r>
+vmap <C-y> <Esc><C-y>v
+imap <C-y> <Esc><C-y>i
+
 " Quit (Alt+Q)
 nmap <A-q> :q<Enter>
 vmap <A-q> <Esc><A-q>v
@@ -70,29 +75,19 @@ nmap <C-f><C-f> :%s///g<Left><Left><Left>
 vmap <C-f><C-f> <Esc><C-f><C-f>
 imap <C-f><C-f> <Esc><C-f><C-f>
 
+" Autocomplete (Ctrl+<Space>)
+imap <C-Space> <C-n>
+
 " Wrap in Quotes
-vmap " di"<Esc>pi<Right>"
+vmap " d<Insert>"<Esc>p<Insert><Right>"
+vmap ' d<Insert>'<Esc>p<Insert><Right>'
 
 " Wrap in Parenthesis
-vmap ( di(<Esc>pi<Right>)
-vmap ) di(<Esc>pi<Right>)
+vmap ( d<Insert>(<Esc>p<Insert><Right>)
+vmap ) d<Insert>(<Esc>p<Insert><Right>)
 
 " Wrap in Brackets
-vmap [ di[<Esc>pi<Right>]
-vmap ] di[<Esc>pi<Right>]
-vmap { di{<Esc>pi<Right>}
-vmap } di{<Esc>pi<Right>}
-
-" Make Directional Arrows Move the Cursor on a "Display" Basis
-nmap <Up> gk
-nmap <Down> gj
-imap <Up> <Esc><Up><Insert><Right>
-imap <Down> <Esc><Down><Insert><Right>
-vmap <Up> <Esc><Up>
-vmap <Down> <Esc><Down>
-vmap <S-Up> gk
-vmap <S-Down> gj
-nmap <S-Up> v<S-Up>
-nmap <S-Down> v<S-Down>
-imap <S-Up> <Esc><S-Up>
-imap <S-Down> <Esc><S-Down>
+vmap [ d<Insert>[<Esc>p<Insert><Right>]
+vmap ] d<Insert>[<Esc>p<Insert><Right>]
+vmap { d<Insert>{<Esc>p<Insert><Right>}
+vmap } d<Insert>{<Esc>p<Insert><Right>}
