@@ -5,6 +5,13 @@ behave mswin
 " Dark Colour Scheme
 colorscheme desert
 
+" Turn Syntax Highlighting On
+syntax on
+filetype indent plugin on
+
+" Show Line Numbers
+set number
+
 " Set Syntax for Known File Types
 au BufNewFile,BufRead,BufReadPost *.md set syntax=markdown
 
