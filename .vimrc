@@ -26,6 +26,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Toggle Normal Mode
+nmap <Esc> i
+
 " Indent Multiple Lines with <Tab>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
@@ -74,6 +77,11 @@ imap <C-f> <Esc><C-f>
 nmap <C-f><C-f> :%s///g<Left><Left><Left>
 vmap <C-f><C-f> <Esc><C-f><C-f>
 imap <C-f><C-f> <Esc><C-f><C-f>
+
+" Go To Line (Ctrl+G)
+nmap <C-g> :
+vmap <C-g> <Esc><C-g>
+imap <C-g> <Esc><C-g>
 
 " Autocomplete (Ctrl+<Space>)
 imap <C-Space> <C-n>
