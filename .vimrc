@@ -32,6 +32,8 @@ nmap <Esc> i
 " Indent Multiple Lines with <Tab>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
+imap <Tab> <Esc>>><Insert>
+imap <S-Tab> <Esc><<<Insert>
 
 " Undo (Ctrl+Z)
 nmap <C-z> u
